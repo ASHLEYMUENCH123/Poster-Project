@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+html { 
+    background: url(gradient1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flexbox-item {
+   
+} 
+
+.flexbox-item1 {
+    align-self: center;
+    border-right: 3px solid white;
+    padding-right: 40px;
+    margin-top: -20;
+    margin-bottom: -20;
+
+    
+} 
+
+.flexbox-item2 {
+    align-items: space-around;
+    align-content: center;
+    align-self: center; 
+} 
+
+
+    body{
+
+        font-family: Helvetica;
+        color: white;
+
+    }
+
+
+
+    h1{
+        font-size: 5vw;
+        font-weight: 400;
+        
+    }
+
+    h2{
+        font-size: 2vw;
+        font-weight: 300;
+        padding: 50px;
+
+
+    }
+
